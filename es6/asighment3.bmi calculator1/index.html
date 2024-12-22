@@ -2,32 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
-  <h1>BMI calculator</h1>
-  <form onsubmit="calculateBMI (); return false">
-    <label for="heightinput">
-      your height:
-    </label>
-    <input required class="heightinputfeild" type="number" id="heightinput" min="0" max="10" placeholder="feet">
-    <input required class="heightinputfeild" type="number" id="heightinputinch" min="0" max="11" placeholder="inch">
-    <br>
-    <label for="weightinput">
-      your weight
-    </label>
-    <input required class="weightinput" type="number" id="weightinput" min="" max="200" placeholder="85kg">
+    <h1>BMI calculator</h1>
 
-    <button type="submit">calculate</button>
-  </form>
+    <form onsubmit="CalculateBMI(); return false">
+
+        <label for="heightinputfeet">
+            Your height
+        </label>
+        <input required step="1" class="inputfieldsize" id="heightinputfeet" type="number" min="0" max="10" placeholder="Feet">
+        <input required step="1" class="inputfieldsize" id="heightinputinch" type="number" min="0" max="11" placeholder="inch">
+
+        <br>
+
+        <label for="weightinputkg">
+            Your Weight
+        </label>
+        <input required step="0.1" class="inputfieldsize2" id="weightinputkg" type="number" min="0" max="200" placeholder="85 KG">
 
 
 
-  <script src="./app.js"></script>
+        <button type="submit">Calculate</button>
+
+    </form>
+
+<div id="result">
+    <h2 id="title"></h2>
+    <p id="suggestion"></p>
+</div>
+
+
+
+
+    <script src="./app.mjs">
+
+    </script>
 </body>
 
 </html>
