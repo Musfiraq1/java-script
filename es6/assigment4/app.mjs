@@ -1,4 +1,6 @@
+
 let  number = prompt("enter a number")
+number = parseInt(number)
 document.write("<br>", number , "x", 1 ,"=" , number * 1)
 document.write("<br>", number , "x", 2 ,"=" , number * 2)
 document.write("<br>", number , "x", 3 ,"=" , number * 3)
