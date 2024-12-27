@@ -1,0 +1,61 @@
+* {
+  background-color: teal;
+}
+
+.heading-1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-1 {
+  background-color: black;
+  border: 0px;
+  height: 50px;
+  color: teal;
+  text-align: center;
+}
+
+.input-2 {
+  background-color: black;
+  border: 0px;
+  height: 50px;
+  color: teal;
+  text-align: center;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.button {
+  background-color: black;
+  height: 50px;
+  width: 150px;
+  border: 0px;
+  border-radius: 50px;
+  color: teal;
+
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#table1 {
+  border: 2px;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 50px;
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.table-div{
+display: flex;
+justify-content: center;
+}
